@@ -1,0 +1,27 @@
+header {
+  background: linear-gradient(102.48deg, #976464 -29.03%, #cfa5a5 97.75%);
+  margin-bottom: 30px;
+  .headerTop {
+    display: flex;
+    height: 45px;
+    justify-content: space-between;
+    align-items: center;
+    @media (max-width: 800px) {
+      height: 75px;
+      flex-direction: column;
+      padding: 10px 0;
+    }
+    @media (max-width: 400px) {
+      height: 95px;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .block {
+      display: flex;
+      gap: 10px;
+      color: white;
+      font-size: 14px;
+      line-height: 19px;
+    }
+  }
+}
